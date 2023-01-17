@@ -1,0 +1,23 @@
+{
+  "name": "lab2webapps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denharsh007/Lab2WebApps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denharsh007/Lab2WebApps/issues"
+  },
+  "homepage": "https://github.com/denharsh007/Lab2WebApps#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
