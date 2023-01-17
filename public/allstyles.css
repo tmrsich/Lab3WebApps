@@ -5,61 +5,60 @@
     --table-white-color: #eeeeee;
    }
    
-   * {
-       /*Just to see the positioning of elements, will be removed*/
-       box-sizing: border-box;
-       font-family: Verdana, Tahoma, sans-serif;
-   }
+* {
+    /*Just to see the positioning of elements, will be removed*/
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
    
-   html {
-       width: 100%;
-       height: 100%;
-       background-color: var(--main-background-color);
-       display: block;
-       z-index: 0;
-   }
-
-   div {
+html {
     width: 100%;
-   }
-   
-   nav {
-       display: flex;
-       left: 15%;
-       top: 0;
-       position: fixed;
-       height: 100px;
-       width: 70% !important;
-       background-color: var(--nav-background-color);
-       border-radius: 10px;
-       justify-content: center;
-   }
-   
-   .nav-links{
-       margin: auto;
-       font-size: 40px;
-       font-family: Tahoma;
-       font-weight: bold;
-   }
-   
-   .navigation-icons-bar {
-       display: flex;
-       left: 20%;
-       position: fixed;
-       margin-top: 72.5px;
-       width: 60%;
-       height: 25px;
-       z-index: 1;
-   }
+    height: 100%;
+    background-color: var(--main-background-color);
+    display: block;
+    z-index: 0;
+}
 
-   .nav-icons {
-       position: relative;
-   }
-   
-   .nav-href:hover {
-       color: var(--nav-link-color);
-       text-decoration: underline;
-   }
+div {
+ width: 100%;
+}
+
+nav {
+    display: flex;
+    left: 15%;
+    top: 0;
+    position: fixed;
+    height: 100px;
+    width: 70% !important;
+    background-color: var(--nav-background-color);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.nav-links{
+    margin: auto;
+    font-size: 40px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.navigation-icons-bar {
+    display: flex;
+    left: 20%;
+    position: fixed;
+    margin-top: 72.5px;
+    width: 60%;
+    height: 25px;
+    z-index: 1;
+}
+.nav-icons {
+    position: relative;
+}
+
+.nav-href:hover {
+    color: var(--nav-link-color);
+    text-decoration: underline;
+}
 
 @media (max-width: 412px) {
     nav {
